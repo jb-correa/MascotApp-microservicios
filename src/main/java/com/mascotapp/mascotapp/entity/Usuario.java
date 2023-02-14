@@ -31,6 +31,9 @@ public class Usuario {
     @Temporal(TemporalType.TIMESTAMP)
     private Date baja;
 
-    private List<Mascota> mascotas;
+    @OneToMany (fetch=FetchType.LAZY)
+    private List<Perro> perros;
+
+    private boolean activo;
 
 }

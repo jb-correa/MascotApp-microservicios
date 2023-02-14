@@ -18,7 +18,7 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-public class Mascota {
+public class Perro {
     @javax.persistence.Id
     @Column(name = "id", nullable = false)
     @GeneratedValue(generator = "uuid")
@@ -38,6 +38,6 @@ public class Mascota {
     private Date alta;
     @Temporal (TemporalType.TIMESTAMP)
     private Date baja;
-
+    private boolean activo;
 
 }

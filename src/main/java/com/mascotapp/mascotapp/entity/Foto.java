@@ -31,4 +31,6 @@ public class Foto {
     @Temporal (TemporalType.TIMESTAMP)
     private Date baja;
 
+    private boolean esPerfil;
+
 }
