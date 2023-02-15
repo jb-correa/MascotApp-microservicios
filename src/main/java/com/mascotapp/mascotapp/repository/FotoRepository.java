@@ -1,8 +1,32 @@
 package com.mascotapp.mascotapp.repository;
 
-import com.mascotapp.mascotapp.entity.Perro;
+import com.mascotapp.mascotapp.entity.Foto;
 import org.springframework.data.jpa.repository.JpaRepository;
+import java.util.List;
 
-public interface FotoRepository extends JpaRepository<Perro, String> {
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
+import org.springframework.stereotype.Repository;
+
+
+public interface FotoRepository extends JpaRepository<Foto, String> {
+
+    public Foto findByFileName(String fileName);
+
+    @Query("SELECT a from Foto a WHERE a.activo = true ORDER BY a.fileName")
+    public List<Foto> searchAssets();
+
+    @Query("SELECT a from Foto a WHERE a.activo = true ORDER BY a.fileName")
+    public Page<Foto> searchAssets(Pageable pageable);
+
+    @Query("SELECT a from Foto a WHERE a.activo = true AND a.fileName LIKE :q OR a.uri LIKE :q ORDER BY a.fileName DESC")
+    public Page<Foto> searchByParam(Pageable pageable, @Param("q") String q);
+
+    @Query("SELECT a from Foto a WHERE a.activo = true AND a.fileName LIKE :q OR a.uri LIKE :q ORDER BY a.fileName DESC")
+    public List<Foto> searchByParam(@Param("q") String q);
+
 
 }

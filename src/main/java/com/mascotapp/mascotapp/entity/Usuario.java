@@ -24,6 +24,9 @@ public class Usuario implements Serializable {
 
     private String username;
 
+    @OneToOne
+    private Foto fotoDePerfil;
+
     private String email;
 
     private String clave;
