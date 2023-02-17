@@ -9,7 +9,9 @@ import org.springframework.context.annotation.ComponentScan;
 public class MascotappApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(MascotappApplication.class, args);
+
 	}
 
 }
