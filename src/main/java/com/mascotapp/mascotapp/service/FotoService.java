@@ -9,13 +9,13 @@ import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
+import org.apache.commons.io.FilenameUtils;
 import com.mascotapp.mascotapp.converters.FotoConverter;
 import com.mascotapp.mascotapp.entity.Foto;
 import com.mascotapp.mascotapp.exceptions.ValidationError;
 import com.mascotapp.mascotapp.models.FotoModel;
 import com.mascotapp.mascotapp.repository.FotoRepository;
 import lombok.RequiredArgsConstructor;
-import org.apache.commons.io.FilenameUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.domain.Page;

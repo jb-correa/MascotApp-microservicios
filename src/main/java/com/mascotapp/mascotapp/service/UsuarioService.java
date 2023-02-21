@@ -18,7 +18,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 @RequiredArgsConstructor(onConstructor_ = @Autowired)
-public class UsuarioService implements ServiceInterface<UsuarioModel, Usuario>{
+public class UsuarioService implements ServiceInterface <UsuarioModel, Usuario>{
 
     private final UsuarioRepository usuarioRepository;
     private final UsuarioConverter usuarioConverter;
@@ -91,7 +91,7 @@ public class UsuarioService implements ServiceInterface<UsuarioModel, Usuario>{
 
     @Override
     public Usuario getOne(String id) {
-        return usuarioRepository.findById(id);
+        return null;
     }
 
     @Override
