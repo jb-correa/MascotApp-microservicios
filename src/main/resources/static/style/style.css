@@ -1,0 +1,1195 @@
+/* CRISTIAN,TERE,GIULIANO */
+/* fondo del body GENERAL */
+.Pagina-Principal {
+  background-color: white;
+  /* background-color: rgba(213, 167, 112, 1); */
+  /* background-color: grey; */
+}
+/* CRISTIAN,TERE,GIULIANO */
+/* Navbar GENERAL*/
+.navbar {
+  background-color: rgb(0, 0, 0);
+}
+/* CRISTIAN */
+/* Barra de contenido de Cards DIV */
+.Contenedor-Cards {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 1120px;
+  height: 265px;
+}
+/* CRISTIAN */
+/* Titulo de Cards */
+.destacados {
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  font-family: Tahoma;
+}
+/* CRISTIAN */
+/* Taretas Destacadas */
+.Card01 {
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  background-color: black;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 140px;
+  height: 230px;
+  position: relative;
+  top: 7px;
+  float: left;
+  border-radius: 10px;
+  border: rgba(255, 193, 7, 1) solid 5px;
+}
+/* CRISTIAN */
+.Card02 {
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  background-color: black;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 140px;
+  height: 230px;
+  position: relative;
+  top: 7px;
+  float: left;
+  border-radius: 10px;
+  border: rgba(32, 201, 151, 1) solid 5px;
+}
+/* CRISTIAN */
+.Card03 {
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  background-color: black;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 140px;
+  height: 230px;
+  position: relative;
+  top: 7px;
+  float: left;
+  border-radius: 10px;
+  border: rgba(13, 202, 240, 1) solid 5px;
+}
+/* CRISTIAN */
+.Card04 {
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  background-color: black;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 140px;
+  height: 230px;
+  position: relative;
+  top: 7px;
+  float: left;
+  border-radius: 10px;
+  border: rgba(111, 66, 193, 1) solid 5px;
+}
+/* CRISTIAN */
+.Card05 {
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  background-color: black;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 140px;
+  height: 230px;
+  position: relative;
+  top: 7px;
+  float: left;
+  border-radius: 10px;
+  border: rgba(214, 51, 132, 1) solid 5px;
+}
+/* CRISTIAN */
+.Card06 {
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  background-color: black;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 140px;
+  height: 230px;
+  position: relative;
+  top: 7px;
+  float: left;
+  border-radius: 10px;
+  border: rgba(220, 53, 69, 1) solid 5px;
+}
+/* CRISTIAN */
+.Card07 {
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  background-color: black;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 140px;
+  height: 230px;
+  position: relative;
+  top: 7px;
+  float: left;
+  border-radius: 10px;
+  border: rgba(253, 126, 20, 1) solid 5px;
+}
+/* CRISTIAN */
+/* Imagen de las tarjetas */
+.card-img-top {
+  width: 110px;
+  height: 110px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 7px;
+}
+/* CRISTIAN */
+/* Cuerpo del texto de las Tarjetas */
+.Card-body {
+  text-align: center;
+  font-size: 12px;
+}
+/* CRISTIAN */
+/* contenedor de grilla ppal */
+.DivContenedor {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 1120px;
+  height: 180px;
+  /* background-color: white; */
+}
+/* CRISTIAN */
+/* Botonera Grilla USUARIO */
+.Contenedor-Grilla-Negro01 {
+  float: left;
+  padding: 0;
+  position: relative;
+  box-sizing: border-box;
+  display: block;
+}
+/* CRISTIAN */
+.Borde-trans01 {
+  width: 295px;
+  height: 180px;
+  margin-left: 0;
+  border: 10px solid black;
+  display: block;
+}
+/* CRISTIAN */
+.Fondo-full01 {
+  width: 275px;
+  height: 160px;
+  position: absolute;
+  margin: 0px;
+  overflow: hidden;
+  padding: 0px;
+}
+/* CRISTIAN */
+.Titulo-grilla01 {
+  padding-left: 25px;
+  width: 90px;
+  height: 25px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  box-sizing: border-box;
+  display: block;
+  background-color: black;
+}
+/* CRISTIAN */
+.Texto-grilla01 {
+  padding: 7px 5px 0 11px;
+  font-size: 24px;
+  font-family: Tahoma;
+  color: white;
+  line-height: 100%;
+  font-weight: 500;
+  float: right;
+  display: block;
+  background-color: black;
+  padding: 0px;
+  position: relative;
+}
+/* CRISTIAN */
+/* Botonera Grilla FAVORITOS */
+.Contenedor-Grilla-Negro02 {
+  float: left;
+  padding: 0;
+  position: relative;
+  box-sizing: border-box;
+  display: block;
+}
+/* CRISTIAN */
+.Borde-trans02 {
+  width: 190px;
+  height: 180px;
+  margin-left: 25px;
+  border: 10px solid black;
+  display: block;
+}
+/* CRISTIAN */
+.Fondo-full02 {
+  width: 170px;
+  height: 160px;
+  position: absolute;
+  margin: 0px;
+  overflow: hidden;
+  padding: 0px;
+}
+/* CRISTIAN */
+.Titulo-grilla02 {
+  padding-left: 25px;
+  width: 105px;
+  height: 25px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  box-sizing: border-box;
+  display: block;
+  background-color: black;
+}
+/* CRISTIAN */
+.Texto-grilla02 {
+  padding: 7px 5px 0 11px;
+  font-size: 24px;
+  font-family: Tahoma;
+  color: white;
+  line-height: 100%;
+  font-weight: 500;
+  float: right;
+  display: block;
+  background-color: black;
+  padding: 0px;
+  position: relative;
+}
+/* CRISTIAN */
+/* Botonera Grilla EVENTOS */
+.Contenedor-Grilla-Negro03 {
+  float: left;
+  padding: 0;
+  position: relative;
+  box-sizing: border-box;
+  display: block;
+}
+/* CRISTIAN */
+.Borde-trans03 {
+  width: 373px;
+  height: 180px;
+  margin-left: 25px;
+  border: 10px solid black;
+  display: block;
+}
+/* CRISTIAN */
+.Fondo-full03 {
+  width: 355px;
+  height: 160px;
+  position: absolute;
+  margin: 0px;
+  overflow: hidden;
+  padding: 0px;
+}
+/* CRISTIAN */
+.Titulo-grilla03 {
+  padding-left: 25px;
+  width: 90px;
+  height: 25px;
+  position: absolute;
+  right: 7px;
+  bottom: 10px;
+  box-sizing: border-box;
+  display: block;
+  background-color: black;
+}
+/* CRISTIAN */
+.Texto-grilla03 {
+  padding: 7px 5px 0 11px;
+  font-size: 24px;
+  font-family: Tahoma;
+  color: white;
+  line-height: 100%;
+  font-weight: 500;
+  float: right;
+  display: block;
+  background-color: black;
+  padding: 0px;
+  position: relative;
+}
+/* CRISTIAN */
+/* Botonera Grilla COMPRAS */
+.Contenedor-Grilla-Negro04 {
+  float: left;
+  padding: 0;
+  position: relative;
+  box-sizing: border-box;
+  display: block;
+}
+/* CRISTIAN */
+.Borde-trans04 {
+  width: 187px;
+  height: 180px;
+  margin-left: 25px;
+  border: 10px solid black;
+  display: block;
+}
+/* CRISTIAN */
+.Fondo-full04 {
+  width: 170px;
+  height: 160px;
+  position: absolute;
+  margin: 0px;
+  overflow: hidden;
+  padding: 0px;
+}
+/* CRISTIAN */
+.Titulo-grilla04 {
+  padding-left: 25px;
+  width: 60px;
+  height: 25px;
+  position: absolute;
+  right: 7px;
+  bottom: 10px;
+  box-sizing: border-box;
+  display: block;
+  background-color: black;
+}
+/* CRISTIAN */
+.Texto-grilla04 {
+  padding: 7px 5px 0 11px;
+  font-size: 24px;
+  font-family: Tahoma;
+  color: white;
+  line-height: 100%;
+  font-weight: 500;
+  float: right;
+  display: block;
+  background-color: black;
+  padding: 0px;
+  position: relative;
+}
+/* CRISTIAN,TERE,GIULIANO */
+/* Footer */
+.Footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 100px;
+}
+/* CRISTIAN,TERE,GIULIANO */
+.dropdown {
+  margin-right: 25px;
+  text-align: left;
+}
+/* CRISTIAN,TERE,GIULIANO */
+header {
+  justify-content: center;
+}
+/* CRISTIAN,TERE,GIULIANO */
+.bg-light {
+  --bs-bg-opacity: 0;
+}
+/* CRISTIAN,TERE,GIULIANO */
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+/* CRISTIAN */
+/* PAGINA DE COMPRAS */
+.Contenedor-Vents {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 1120px;
+  height: 1850px;
+  /* background-color: tomato; */
+}
+/* CRISTIAN */
+.Vent-text {
+  text-align: center;
+  font-size: 25px;
+}
+/* CRISTIAN */
+.Ventas {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  font-family: Tahoma;
+}
+/* CRISTIAN */
+.Vent01 {
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  background-color: black;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 250px;
+  height: 350px;
+  position: relative;
+  top: 7px;
+  float: left;
+  border-radius: 10px;
+  border: rgba(253, 126, 20, 1) solid 5px;
+}
+/* CRISTIAN */
+/* PAGINA DE COMPRA DE ARTICULO */
+.PaginaCOMPRA {
+  /* background-color: blueviolet; */
+  width: 1240px;
+  height: 500px;
+  margin: auto;
+  margin-top: 115px;
+  margin-bottom: 110px;
+  margin-left: 220px;
+  margin-right: 10px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 10px;
+  border: rgba(13, 202, 240, 1) solid 5px;
+}
+/* CRISTIAN */
+.ImagenProducto {
+  /* background-color: red; */
+  width: 550px;
+  height: 450px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 10px;
+  display: inline-block;
+  text-align: center;
+  /* float: left; */
+}
+/* CRISTIAN */
+.TarjetaCompra {
+  /* background-color: red; */
+  color: black;
+  width: 550px;
+  height: 450px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: -45px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 10px;
+  border: rgba(13, 202, 240, 1) solid 5px;
+}
+/* CRISTIAN */
+.AutorARTICULO {
+  margin-left: 10px;
+  text-align: left;
+}
+/* CRISTIAN */
+.PrecioARTICULO {
+  margin-left: 10px;
+  text-align: left;
+}
+/* CRISTIAN */
+/* BOTON COMPRA */
+.BOTONComFav {
+  margin: auto;
+  margin-top: 70px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  margin-right: 20px;
+  /* background-color: lavender; */
+}
+
+/* CRISTIAN */
+/* MODIFICAR Y ELIMINAR OBRA */
+.Contenedor-Cards-mods {
+  /* background-color: blue; */
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 1120px;
+  height: 700px;
+}
+.OBRA-01 {
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  background-color: black;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 140px;
+  height: 280px;
+  position: relative;
+  top: 7px;
+  float: left;
+  border-radius: 10px;
+  border: rgba(103, 194, 156, 1) solid 5px;
+}
+.OBRA-02 {
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  background-color: black;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 140px;
+  height: 165px;
+  position: relative;
+  top: 7px;
+  float: left;
+  border-radius: 10px;
+  border: rgba(103, 194, 156, 1) solid 5px;
+}
+.Card-body-mod {
+  text-align: center;
+  font-size: 12px;
+}
+/* FAVORITOS */
+.Contenedor-Cards-Favs {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 1120px;
+  height: 700px;
+}
+.Card-body-Fav {
+  text-align: center;
+  font-size: 12px;
+}
+.OBRA-03 {
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  background-color: black;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 140px;
+  height: 280px;
+  position: relative;
+  top: 7px;
+  float: left;
+  border-radius: 10px;
+  border: rgb(194, 103, 164) solid 5px;
+}
+
+/* TERE */
+.card-title {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/*landing page*/
+.text-white {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
+}
+.mb-5 {
+  margin-bottom: 3rem !important;
+}
+
+@media (min-width: 1200px) {
+  h2,
+  .h2 {
+    font-size: 2rem;
+    font-size: calc(1.325rem + 0.9vw);
+  }
+  h6,
+  .h6,
+  h5,
+  .h5,
+  h4,
+  .h4,
+  h3,
+  .h3,
+  h2,
+  .h2,
+  h1,
+  .h1 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+user agent stylesheet h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.text-center {
+  text-align: center !important;
+}
+
+@media (min-width: 992px) {
+  .g-lg-5,
+  .gx-lg-5 {
+    --bs-gutter-x: 3rem;
+  }
+  .g-4,
+  .gx-4 {
+    --bs-gutter-x: 1.5rem;
+  }
+}
+.navbar-brand #page-top {
+  font-size: small;
+  font-family: "Allison", cursive;
+  --thumbnail-padding: 0.25rem;
+}
+.signup-section {
+  padding: 10rem 0;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.1) 0%,
+      rgba(0, 0, 0, 0.5) 75%,
+      #000 100%
+    ),
+    url("../assets/img/bg-signup.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.signup-section .form-signup input {
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  padding: 1.25rem 2rem;
+  height: auto;
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  border: 0;
+}
+.contact-section {
+  padding-top: 5rem;
+}
+.contact-section .card {
+  border: 0;
+  border-bottom: 0.25rem solid #64a19d;
+}
+.contact-section .card h4,
+.contact-section .card .h4 {
+  font-size: 0.8rem;
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+}
+.contact-section .card hr {
+  border-color: #64a19d;
+  border-width: 0.25rem;
+  width: 3rem;
+}
+.contact-section .social {
+  margin-top: 5rem;
+}
+.contact-section .social a {
+  text-align: center;
+  height: 3rem;
+  width: 3rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 100%;
+  line-height: 3rem;
+  color: rgba(255, 255, 255, 0.3);
+}
+.contact-section .social a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+.contact-section .social a:active {
+  color: rgb(0, 0, 0);
+}
+.footer {
+  padding: 5rem 0;
+  position: absolute;
+}
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) * -0.5);
+  margin-left: calc(var(--bs-gutter-x) * -0.5);
+}
+body {
+  margin: 0;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  text-align: var(--bs-body-text-align);
+  background-color: var(--bs-body-bg);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  letter-spacing: 0.0625em;
+}
+:root {
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
+  --bs-purple: #7464a1;
+  --bs-pink: #d63384;
+  --bs-red: #a16468;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #e4c662;
+  --bs-green: #67c29c;
+  --bs-teal: #64a19d;
+  --bs-cyan: #1cabc4;
+  --bs-white: #fff;
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #343a40;
+  --bs-gray-100: #f8f9fa;
+  --bs-gray-200: #e9ecef;
+  --bs-gray-300: #dee2e6;
+  --bs-gray-400: #ced4da;
+  --bs-gray-500: #adb5bd;
+  --bs-gray-600: #6c757d;
+  --bs-gray-700: #495057;
+  --bs-gray-800: #343a40;
+  --bs-gray-900: #212529;
+  --bs-primary: #64a19d;
+  --bs-secondary: #7464a1;
+  --bs-success: #67c29c;
+  --bs-info: #1cabc4;
+  --bs-warning: #e4c662;
+  --bs-danger: #a16468;
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
+  --bs-black: #000;
+  --bs-white: #fff;
+  --bs-primary-rgb: 100, 161, 157;
+  --bs-secondary-rgb: 116, 100, 161;
+  --bs-success-rgb: 103, 194, 156;
+  --bs-info-rgb: 28, 171, 196;
+  --bs-warning-rgb: 228, 198, 98;
+  --bs-danger-rgb: 161, 100, 104;
+  --bs-light-rgb: 248, 249, 250;
+  --bs-dark-rgb: 33, 37, 41;
+  --bs-black-rgb: 0, 0, 0;
+  --bs-white-rgb: 255, 255, 255;
+  --bs-white-rgb: 255, 255, 255;
+  --bs-black-rgb: 0, 0, 0;
+  --bs-body-rgb: 33, 37, 41;
+  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  --bs-gradient: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0)
+  );
+  --bs-body-font-family: Nunito, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
+    Segoe UI Symbol, Noto Color Emoji;
+  --bs-body-font-size: 1rem;
+  --bs-body-font-weight: 400;
+  --bs-body-line-height: 1.5;
+  --bs-body-color: #212529;
+  --bs-body-bg: #fff;
+}
+
+/* VISTAS GIULIANO */
+/* CSS DE FORMULARIO OBRA */
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.Fondo {
+  background-image: url(fondoFormularioObra.jpg);
+  background-image: url(fondoFormularioObra.jpg);
+}
+.form-register {
+  width: 400px;
+  background-color: #243c2a;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  border-radius: 4px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: antiquewhite;
+  box-shadow: 7px 13px 37px #000;
+}
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+}
+.form-register a {
+  color: rgb(163, 163, 163);
+
+  text-decoration: none;
+}
+.form-register a:hover {
+  color: rgb(163, 163, 163);
+  text-decoration: underline;
+}
+.form-register .botones {
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: antiquewhite;
+  margin: 16px 0;
+  font-size: 16px;
+}
+.formFile {
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: antiquewhite;
+  margin: 16px 0;
+  font-size: 16px;
+}
+.controls {
+  width: 100%;
+  background-color: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  color: antiquewhite;
+}
+/* CSS FORMULARIO DE REGISTRO */
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.Fondo {
+  background-image: url(36344.jpg);
+}
+.form-register {
+  width: 400px;
+  background-color: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: antiquewhite;
+  box-shadow: 7px 13px 37px #000;
+}
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.controls {
+  width: 100%;
+  background-color: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  color: antiquewhite;
+}
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+}
+.form-register a {
+  color: rgb(163, 163, 163);
+
+  text-decoration: none;
+}
+.form-register a:hover {
+  color: rgb(163, 163, 163);
+  text-decoration: underline;
+}
+.form-register .botones {
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: antiquewhite;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+.Soporte {
+  width: 500;
+  height: 700;
+  margin-bottom: 100px;
+}
+/* AYUDAS Y SOPORTE */
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.Preguntas {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration-line: underline;
+}
+
+.form-control-Giuliano {
+  width: auto;
+}
+.form-control-Giuliano03 {
+  width: 340px;
+}
+
+.form-control-Blengini {
+  width: 340px;
+}
+
+/* .Fondo {
+  background-image: url(fondoFormularioObra.jpg);
+  background-image: url(fondoFormularioObra.jpg);
+} */
+.form-register {
+  width: 400px;
+  background-color: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: antiquewhite;
+  box-shadow: 7px 13px 37px #000;
+}
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+}
+.form-register a {
+  color: rgb(163, 163, 163);
+
+  text-decoration: none;
+}
+.form-register a:hover {
+  color: rgb(163, 163, 163);
+  text-decoration: underline;
+}
+.form-register .botones {
+  width: 100%;
+  background: #0dcaf0;
+  border: none;
+  padding: 12px;
+  color: antiquewhite;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+.formFile {
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: antiquewhite;
+  margin: 16px 0;
+  font-size: 16px;
+}
+.controls {
+  width: 100%;
+  background-color: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 2px solid #0dcaf0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  color: antiquewhite;
+}
+
+.form-register .botones2 {
+  width: 100%;
+  background: red;
+  border: none;
+  padding: 12px;
+  color: antiquewhite;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+/* TERE */
+/*Formulario de compra*/
+.pagina-formulario {
+  margin: 10px;
+  box-shadow: 7px 13px 37px #000;
+}
+.producto-seleccionado-carrito {
+  border-radius: 1px;
+  width: 200 px;
+  height: 200 px;
+  border: 103, 194, 156, 1;
+  scale: fill;
+}
+
+.pagina-formulario {
+  width: 60%;
+  margin-left: 325px;
+  margin-top: 60px;
+}
+
+.form-control {
+  width: 950px;
+}
+
+.form-select {
+  width: 950px;
+}
+
+/* Vista de obra */
+.love {
+  content: "\2665";
+  color: rgba(255, 174, 235, 0.919);
+  font-size: 1rem;
+}
+
+.container-form-articulo {
+  margin-top: 5px;
+  width: 1240px;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-header {
+  padding: 2rem;
+  margin-bottom: 3rem;
+}
+
+.card {
+  box-shadow: 7px 13px 37px rgb(0, 0, 0);
+}
+
+.card-text-center {
+  padding: 30px;
+  margin: 10px;
+}
+
+.col-sm-6 {
+  padding: 3rem;
+}
+
+.card-img {
+  width: 330px;
+  height: 330px;
+  margin: 10px;
+  margin-bottom: 30px;
+  border-radius: 7px;
+}
+
+.articulo-numero-precio {
+  text-shadow: #0d6efd;
+  font-size: medium;
+}
+
+.articulo-precio {
+  text-shadow: #0d6efd;
+  font-size: medium;
+}
+
+.container-verObras {
+  padding: 5rem;
+  margin-bottom: 10rem;
+  display: block;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* PAGINA ERROR */
+/* .contenedor-error {
+} */
+.contenedor-mensaje {
+  background-image: url(/images/Img05.jpeg);
+  background-size: cover;
+  margin-left: 525px;
+  margin-top: 150px;
+  margin-bottom: 171px;
+  display: inline-block;
+  text-align: center;
+  background-color: brown;
+  width: 600px;
+  height: 300px;
+  color: white;
+  border-radius: 10px;
+  font-family: Tahoma;
+  box-shadow: 7px 13px 37px #000;
+}
+.P-Error {
+  font-size: 25px;
+}
